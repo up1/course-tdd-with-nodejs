@@ -16,7 +16,7 @@ module.exports = class BookingModel {
    *
    * @example
    * // returns '2020-10-15T06:02:00.000Z'
-   * Reservation.combineDateTime('2020/10/15', '06:02 AM')
+   * Booking.combineDateTime('2020/10/15', '06:02 AM')
    *
    * @param {string} date YYYY/MM/DD format
    * @param {string} time H:mm A format
