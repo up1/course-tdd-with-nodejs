@@ -10,10 +10,22 @@
   * Contract test
   * End-to-End test
 * Good Unit test :: Properties
+  * F.I.R.S.T
+* Test Structure
+* Continuous Testing
+* Testing with Node.JS application
+* Continuous Integration with NodeJS
+* Working with Container
+* Workshop
+  * Design
+  * Test and Develop
+  * Deploy
 
 ## List of libraries
 * Testing
   * Jest
+  * Nock
+  * SuperTest
 * Developing
   * lodash
   * sqlite3
