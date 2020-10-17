@@ -1,8 +1,16 @@
 const BookingModel = require("../../src/model/booking_model");
-const bookingRepository = require("../../src/booking_repository");
+const bookingRepository = require("../../src/booking_repository")
 
-describe("Booking Repository", () => {
-  test("should return booking id after created successfully", async() => {
+describe("Booking repository", () => {
+  
+  // Working with Jest Mock
+  beforeEach(() => {
+    
+  });
+
+  afterEach(() => {});
+
+  test("should return booking id after created successfully", async () => {
     const bookingModel = new BookingModel({
       party: 3,
       name: "Family",
@@ -12,8 +20,7 @@ describe("Booking Repository", () => {
       phone: "xxx",
       message: "yyy",
     });
-    const lastID = await bookingRepository.create(bookingModel)
-    expect(lastID).toBe(1234);
+    const lastID = await bookingRepository.create(bookingModel);
+    expect(lastID).toBe(9999);
   });
-
 });

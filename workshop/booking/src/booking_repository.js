@@ -1,6 +1,4 @@
-const _ = require("lodash");
 const sqlite3 = require("sqlite3");
-const debug = require("debug")("demo:booking");
 const db = new sqlite3.Database("demo.db");
 
 // Create database and tables
@@ -46,7 +44,6 @@ function save(bookingModel) {
     bookingModel.message,
   ];
 
-  debug(`Saving ${values}`);
   return new Promise(function (resolve, reject) {
     db.run(sql, values, function(err) {
       if (err) {
@@ -59,8 +56,6 @@ function save(bookingModel) {
 }
 
 function validate(bookingModel) {
-  debug(`Validating ${JSON.stringify(bookingModel)}`);
-
   // Working with Promise
   return new Promise((resolve, reject) => {
     try {
@@ -76,5 +71,5 @@ module.exports = {
   create,
   getAll,
   save,
-  validate,
+  validate
 };
