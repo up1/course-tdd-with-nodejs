@@ -1,5 +1,8 @@
 # Course :: Test-Driven Development with Node.JS
 
+## List of workshop
+* [Workshop 2020/10/17-18](https://github.com/up1/workshop-tdd-nodejs-20201017)
+
 ## Outlines
 * Test-Driven Development
   * Why -> What -> Where -> How
