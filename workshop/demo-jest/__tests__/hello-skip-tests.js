@@ -1,0 +1,9 @@
+test.skip("I will not run", () => {
+  // ...
+});
+test("I will run", () => {
+  // ...
+});
+test("I will run too", () => {
+  // ...
+});
