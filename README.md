@@ -1,7 +1,8 @@
 # Course :: Test-Driven Development with Node.JS
 
 ## List of workshop
-* [Workshop 2020/10/17-18](https://github.com/up1/workshop-tdd-nodejs-20201017)
+* [Workshop 2020/10/17](https://github.com/up1/workshop-tdd-nodejs-20201017)
+* [Workshop 2020/10/18](https://github.com/up1/workshop-tdd-nodejs-20201018)
 
 ## Outlines
 * Test-Driven Development
