@@ -1,5 +1,16 @@
 # Course :: Test-Driven Development with Node.JS
 
+## List of libraries
+* Testing
+  * Jest
+  * Nock
+  * SuperTest
+* Developing
+  * lodash
+  * sqlite3
+  * joi
+  * moment
+
 ## List of workshop
 * [Workshop 2020/10/17](https://github.com/up1/workshop-tdd-nodejs-20201017)
 * [Workshop 2020/10/18](https://github.com/up1/workshop-tdd-nodejs-20201018)
@@ -24,17 +35,6 @@
   * Design
   * Test and Develop
   * Deploy
-
-## List of libraries
-* Testing
-  * Jest
-  * Nock
-  * SuperTest
-* Developing
-  * lodash
-  * sqlite3
-  * joi
-  * moment
   
   
   
