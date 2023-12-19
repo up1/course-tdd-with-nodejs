@@ -1,6 +1,12 @@
 # Course :: Test-Driven Development with Node.JS
 
 ## List of libraries
+* Testable strucure of project
+* Test strategy
+  * Unit
+  * Integration
+  * Contract
+  * End-to-end 
 * Testing
   * Jest
   * Nock
